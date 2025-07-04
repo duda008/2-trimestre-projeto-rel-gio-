@@ -2,10 +2,10 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #c30b36;
+    --verde: #d01456;
     --branco: #FFFFFF;
-    --botao-ativo: #5e5237;
-    --botao-inativo: rgba(220, 244, 39, 0.5);
+    --botao-ativo: #952952;
+    --botao-inativo: rgba(244, 39, 172, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
@@ -79,18 +79,22 @@ body {
 .abas-conteudo.ativo{
     display: block;
 }
-.abas-conteudo.ativo{
+
+.abas-conteudo{
     display: none;
 }
+
 .abas-conteudo-titulo-principal{
     font-size: 28px;
     text-align: center;
 }
+
 .abas-conteudo-titulo-secundario{
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
 }
+
 @media screen and (mid-width:768px){
     .botoes{
         display: flex;
